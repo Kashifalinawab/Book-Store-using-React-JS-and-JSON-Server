@@ -1,0 +1,32 @@
+.displayDiv {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* flex-direction: row; */
+  padding: 5px;
+  /* padding-top: 2rem; */
+  /* justify-content: space-between; */
+}
+
+.mapDiv {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.insideMapDiv {
+  padding: 2px;
+  text-align: center;
+}
+
+.cartDiv {
+  margin-left: 2px;
+  padding: 2rem;
+  /* display: flex;
+  flex-direction: row; */
+  display: grid;
+  grid-template-columns: auto auto;
+  /* border: 1px solid blue; */
+}
+
+.cartImg {
+  width: 50px;
+  height: 70px;
+}
